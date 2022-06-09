@@ -1,1 +1,35 @@
 // TODO
+.containerPosts {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: justify;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+  color: #f8f8f8;
+  transition: color 0.2s;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #d7d7d7;
+  margin-bottom: 24px;
+}
+
+.containerInfo {
+  display: flex;
+  gap: 24px;
+  text-transform: capitalize;
+  color: #bbbbbb;
+  svg {
+    margin-right: 8px;
+  }
+}

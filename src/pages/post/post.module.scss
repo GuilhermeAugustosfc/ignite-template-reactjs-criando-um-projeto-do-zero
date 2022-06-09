@@ -1,1 +1,44 @@
 // TODO
+.banner {
+  max-height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  letter-spacing: -0.5px;
+
+  /* Heading */
+
+  color: #f8f8f8;
+  transition: color 0.2s;
+  margin-bottom: 24px;
+}
+
+.containerContent {
+  margin-top: 64px;
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: justify;
+    color: #f8f8f8;
+    margin-bottom: 50px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: justify;
+    color: #d7d7d7;
+
+    & + p {
+      margin-bottom: 40px;
+    }
+  }
+}
