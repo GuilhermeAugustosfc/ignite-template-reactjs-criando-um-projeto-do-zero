@@ -74,8 +74,8 @@ export default function Post({ post, total_characher_body }: PostProps) {
 export const getStaticPaths: GetStaticPaths = async () => {
   const prismic = getPrismicClient({});
   const posts = await prismic.getByType('ignite_desafio');
-  // const paths = posts.results.map(post => ({ params: { slug: post.uid } })); // nos teste pedia esse formato
-  const paths = posts.results.map(post => `post/${post.uid}`); // porem as 'path' da minha rota sao nesse formato.
+  const paths = posts.results.map(post => ({ params: { slug: post.uid } })); // nos teste pedia esse formato
+  // const paths = posts.results.map(post => `post/${post.uid}`); // porem as 'path' da minha rota sao nesse formato.
 
   return {
     paths: paths,

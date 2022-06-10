@@ -6,30 +6,31 @@
 
 .title {
   font-weight: 700;
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 1.75em;
+  line-height: 2.125em;
   text-align: justify;
   letter-spacing: -0.5px;
-  margin-bottom: 8px;
-  color: #f8f8f8;
+  margin-bottom: 0.5em;
+  color: var(--heading);
+
   transition: color 0.2s;
 }
 
 .subtitle {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125em;
+  line-height: 1.375em;
   text-align: justify;
-  color: #d7d7d7;
-  margin-bottom: 24px;
+  color: var(--body);
+  margin-bottom: 1.5em;
 }
 
 .containerInfo {
   display: flex;
-  gap: 24px;
+  gap: 1.5em;
   text-transform: capitalize;
-  color: #bbbbbb;
+  color: var(--info);
   svg {
-    margin-right: 8px;
+    margin-right: 0.5em;
   }
 }

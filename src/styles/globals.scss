@@ -6,7 +6,11 @@
 
 :root {
   --white: #ffff;
-  --background: rgba(40, 44, 52, 0.83);
+  --background: #1a1d23;
+  --body: #d7d7d7;
+  --info: #bbbbbb;
+  --heading: #f8f8f8;
+  --highligth: #ff57b2;
 }
 
 @media (max-width: 1080px) {
@@ -22,7 +26,7 @@
 }
 
 body {
-  background-color: var(--gray-900);
+  background-color: var(--background);
   color: var(--white);
 }
 

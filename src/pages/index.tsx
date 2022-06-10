@@ -66,7 +66,7 @@ export default function Home({ postsPagination }: HomeProps) {
           <a>
             <article className={styles.post}>
               <div className={styles.title}>{post.data.title}</div>
-              <div className={commonStyles.subtitle}>{post.data.title}</div>
+              <div className={commonStyles.subtitle}>{post.data.subtitle}</div>
               <div className={commonStyles.containerInfo}>
                 <span>
                   <FiCalendar />
